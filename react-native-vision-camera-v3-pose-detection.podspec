@@ -18,8 +18,6 @@ Pod::Spec.new do |s|
 
   s.dependency "React-Core"
   s.dependency "VisionCamera"
-  s.dependency "GoogleMLKit/PoseDetection"
-  s.dependency "GoogleUtilities/UserDefaults", ">= 8.0.0"
-
+  s.dependency "GoogleMLKit/PoseDetection", "1.0.0-beta14"
 
 end
